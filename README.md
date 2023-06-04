@@ -1,3 +1,26 @@
+# Rides App UI
+## Summary
+This project is an extension of the [CL Rides script](https://github.com/ercpham/cl-rides).
+The most active fork is currently [here](https://github.com/Tim-404/cl-rides).
+On the side, we want to build a UI that makes the tool intuitive to use.
+Basically, we don't want to require the rides coordinator to be a CS major.
+
+## Features
+Here are the required features. Focus on these first.
+- [ ] A button that runs the script.
+- [ ] A toggle to specify whether to generate rides for Sunday or Friday.
+- [ ] Entries to store the necessary Google sheets links since they may change. They include the following:
+  - [ ] Weekly Riders Form
+  - [ ] Permanent Riders Form
+  - [ ] Drivers Form
+  - [ ] Rides Script Output
+
+The following features are for convenience.
+- [ ] An entry to specify the date that rides will be needed. The script will use this to automatically rotate drivers.
+- [ ] Two lists for absent people: one for riders and one for drivers. They will be ignored in the script.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
